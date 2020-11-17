@@ -22,6 +22,15 @@ function setup(){
 
 function draw(){
     image(video,0,0,600,500);
+    fill("#e53170");
+    stroke("#ff8906")
+
+    circle(leftWristX,leftWristY,20);
+    leftnumberY=Number(leftWristY);
+    noDleftY=floor(leftnumberY);
+    volume=noDleftY/500;
+    console.log(volume);
+    currentsong.setVolume(volume);
 }
 
 function modelLoaded(){
