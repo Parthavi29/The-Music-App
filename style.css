@@ -1,0 +1,22 @@
+body{
+    font-family: 'Sansita Swashed', cursive;
+    background: url("https://i.pinimg.com/736x/d3/8e/dd/d38edddf61c502cfebda485f9dda0051.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    width: 80%;
+    background: rgb(0,255,192);
+    background: radial-gradient(circle, rgba(0,255,192,1) 0%, rgba(230,0,255,1) 100%);
+    font-size: 30px;
+    color: white;
+    box-shadow: 10px 10px 10px #00ffc0;
+    word-spacing: 5px;
+    padding: 10px;
+}
+
+.note{
+    white-space: pre-line;
+    font-size: 20px;
+}
